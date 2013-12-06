@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.jthoma.ipcalc"
         versionCode="10" 
-        version   = "1.0.0">
+        version   = "1.0.1">
 
     <!-- versionCode is optional and Android only -->
 
@@ -17,7 +17,13 @@
         Jiju Thomas Mathew
     </author>
 
+    <icon src="icon.png" />
     <gap:platform name="android" />
     <preference name="android-installLocation" value="auto" />
 
+    <icon src="android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    
 </widget>
