@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>IP Calc</title>
+  
+  
+  
+  <link rel="stylesheet" href="jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="ipcalc.js"></script>
+  <script src="codiqa.ext.js"></script>
+  
+   
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-role="content">
+        <form id="testfrm" action="/test" method="POST">
+            <div data-role="fieldcontain">
+                <label for="ipmask">
+                    IP/Mask
+                </label>
+                <input name="ipmask" id="ipmask" placeholder="v4 ip and mask" value=""
+                type="text">
+            </div>
+            <input id="validate" type="submit" data-inline="true" data-theme="b" data-icon="check"
+            data-iconpos="left" value="Calculate" data-mini="true">
+        </form>
+        <div id="display"></div>
+    </div>
+</div>
+</body>
+</html>
