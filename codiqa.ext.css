@@ -1,1 +1,17 @@
 /* Put your custom CSS here */
+
+.ui-page{
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fefcea), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #fefcea 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+}
+#display { margin: 15px 15px 0 0; }
+#display .row { 
+    clear: both; padding: 10px; 
+    border-top: 0px; border-right: 1px solid green; border-left: 1px solid green; border-bottom: 1px solid green; 
+    height: 20px;
+    }
+#display .cell { width: 50%; float: left; font-weight: bold; }
+#display .row.first { border: 1px solid green; }
+
+#advt {position: absolute; bottom: 0px; text-align: center; width: 100%; }
+

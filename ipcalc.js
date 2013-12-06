@@ -110,8 +110,12 @@ calcNWmask: function(mask)
    }
      var html ="";
     for(var i in this.res){
-        html += labels[i] + ':&nbsp;' + ((typeof(this.res[i]) == 'object') ? this.res[i].join('.') : this.res[i].toString());
-        html += '<br>';
+        var extra = (i == 'ip') ? 'first' : (i == 'lastadr' ? 'last' : '');
+        html += '<div class="row ' + extra + '"><div class="cell">' + 
+            labels[i] + 
+            ':</div><div class="cell">' + 
+            ((typeof(this.res[i]) == 'object') ? this.res[i].join('.') : this.res[i].toString()) +
+            '</div></div>';
     }
     document.getElementById(divid).innerHTML = html;
  } 
