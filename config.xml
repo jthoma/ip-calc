@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.jthoma.ipcalc"
         versionCode="10" 
-        version   = "1.0.5">
+        version   = "1.0.6">
 
     <!-- versionCode is optional and Android only -->
 
@@ -28,9 +28,9 @@
     <icon src="android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
     
     <gap:splash src="splash.png" />
-    <gap:splash src="splash/mdpi.9.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="splash/hdpi.9.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="splash/xhdpi.9.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="splash/xxhdpi.9.png" gap:platform="android" gap:density="xxhdpi" />
+    <gap:splash src="splash/drawable-mdpi/splash.9.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="splash/drawable-hdpi/splash.9.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="splash/drawable-xhdpi/splash.9.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="splash/drawable-xxhdpi/splash.9.png" gap:platform="android" gap:density="xxhdpi" />
     
 </widget>
