@@ -137,6 +137,7 @@ window.CodiqaControls.define('googlemaps', CodiqaControls.GoogleMap);
         }
         return false;
       });
+      navigator.splashscreen.hide();
   });
   
 })(jQuery);
